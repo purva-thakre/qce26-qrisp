@@ -5,9 +5,9 @@
 This repository hosts the agenda, materials, and participant resources for our QCE26 tutorial on [Qrisp](https://github.com/eclipse-qrisp/Qrisp), an open-source, high-level quantum programming framework.
 
 **Instructors**
-- [Matic Petrič]([url](https://github.com/MatP1337)), Fraunhofer FOKUS
-- [Pietropaolo Frisoni]([url](https://github.com/PietropaoloFrisoni)), IQM Quantum Computers
-- [Purva Thakre]([url](https://github.com/purva-thakre)), IQM Quantum Computers
+- [Matic Petrič](https://github.com/MatP1337), Fraunhofer FOKUS
+- [Pietropaolo Frisoni](https://github.com/PietropaoloFrisoni), IQM Quantum Computers
+- [Purva Thakre](https://github.com/purva-thakre), IQM Quantum Computers
 
 ---
 
