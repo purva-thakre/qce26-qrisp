@@ -31,17 +31,57 @@ Circuit-based quantum computation, as favored by popular frameworks like Qiskit 
 
 ## Format
 
-Two 90-minute sessions blending slide presentations with hands-on Jupyter Notebook exercises. Participants are encouraged to bring a laptop with internet access; a MyBinder environment will also be available for those without a local setup.
+Two 90-minute sessions blending slide presentations with hands-on Google Colab notebook exercises. Participants are encouraged to bring a laptop with internet access. For those who prefer a local setup, each Colab notebook can be downloaded as a Jupyter notebook and run on your own machine.
 
 ## Agenda
 
-🚧 *Detailed agenda coming soon, check back as we finalize the session breakdown.*
+Two 90-minute sessions. Each session pairs slide presentations with hands-on Google Colab notebooks.
+
+### Session 1 — Introduction to static Qrisp (90 min)
+
+**Part 1: Static Qrisp (0–60 min)**
+
+| Time | Topic | Format |
+|------|-------|--------|
+| 0–15 | Introduction to static Qrisp | Slides |
+| 15–60 | Hands-on Code Demo| Google Colab notebook |
+| | Setup and installation | |
+| | Qrisp quantum types: `QuantumVariable`, `QuantumFloat`, `QuantumBool`, `QuantumModulus` | |
+| | Quantum environments: `control`, `condition`, `invert`, additional environments, and automatic uncomputation | |
+| | Quantum arithmetic and Shor's algorithm: adders, modular arithmetic, and order finding | |
+| | Extras (if time permits): the `Operator` class — Hamiltonians, trotterization, and expectation values | |
+
+**Part 2: Block encodings (60–90 min)**
+
+| Time | Topic | Format |
+|------|-------|--------|
+| 60–65 | Block encodings motivation | Slides |
+| 65–80 | Block encodings, qubitization, QSP | Google Colab notebook |
+| 80–90 | Block encodings as programming abstractions with the `BlockEncoding` class: constructors, arithmetic, resource estimation, inversion, polynomial transformations | Google Colab notebook |
+
+### Session 2 — Jasp and just-in-time compilation (90 min)
+
+**Part 1: Jasp (0–60 min)**
+
+| Time | Topic | Format |
+|------|-------|--------|
+| 0–10 | Introduction to Jasp in Qrisp | Slides |
+| 10–35 | How tracing works in Qrisp | Google Colab notebook |
+| 35–60 | How just-in-time compilation works in Qrisp | Google Colab notebook |
+
+**Part 2: Block encodings (60–90 min)**
+
+| Time | Topic | Format |
+|------|-------|--------|
+| 60–65 | `BlockEncoding` class recap | Slides |
+| 65–80 | Eigenstate filtering using QSP | Google Colab notebook |
+| 80–90 | Wrap up | Slides |
 
 ## Resources
 
 - Qrisp documentation: https://www.qrisp.eu/
 - Qrisp on GitHub: https://github.com/eclipse-qrisp/Qrisp
-- Tutorial materials (slides, notebooks, handouts): _links added closer to the conference_
+- Tutorial materials (slides, Google Colab notebooks, handouts): _links provided during the session_
 
 ---
 
